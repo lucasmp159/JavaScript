@@ -1,0 +1,19 @@
+let n1 = 5;
+let n2 = 9;
+let n3 = 12;
+
+var soma = 0;
+
+
+function array() {
+    n = [n1, n2, n3]
+    for(var i = 0; i < n.length; i++) {
+
+        soma += n[i];
+    }
+    console.log("A soma dos números do Array: " + soma)
+
+    return console.log('O valor mínimo do array: ' + Math.min.apply(null, n))
+} 
+
+console.log(array())
