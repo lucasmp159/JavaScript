@@ -1,0 +1,12 @@
+var nome = "Chico"
+var idade = 35
+var anosQueFaltam = 40 - (2023 - (2023 - idade));
+
+
+function idades() {  
+    console.log("Meu nome é " + nome + " e tenho " + idade + " anos"); 
+
+    console.log("Faltam " + anosQueFaltam + " anos para eu completar 40 anos");  
+} 
+
+console.log(idades())
