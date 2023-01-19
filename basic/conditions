@@ -27,3 +27,16 @@ else{
 ------------------------------------------------------------
 ------------------------------------------------------------
 
+/* Faça um algoritmo que leia uma variável e some 5 caso 
+seja par ou some 8 caso seja ímpar, imprimir o resultado
+desta operação */
+
+let n = Number(prompt("Digite um número: "))
+
+if (n % 2 == 0){
+    var soma = n + 5;
+    alert(soma)
+} else {
+    var soma2 = n + 8
+    alert(soma2)
+}
