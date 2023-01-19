@@ -20,3 +20,29 @@ switch(expr) {
 }
 
 console.log("Tem algo mais que você queira levar? ");
+
+// Leia o preço de um produto e dê um desconto baseado em sua cor.
+
+let preco = 1000;
+let cor = "azul"
+
+switch(cor){
+    case "verde":
+        precofinal = (preco * 0.9)
+        console.log("O preço com desconto será: " + precofinal)
+    break;
+    case "amarelo":
+        precofinal = (preco * 0.8)
+        console.log("O preço com desconto será: " + precofinal)
+    break;
+    case "azul":
+        precofinal = (preco * 0.7)
+        console.log("O preço com desconto será: " + precofinal)
+        break;
+    case "vermelho":
+        precofinal = (preco * 0.6)
+        console.log("O preço com desconto será: " + precofinal)
+        break;
+    default:
+        console.log("Não houve desconto: " + preco);
+}
