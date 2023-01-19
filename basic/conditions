@@ -1,0 +1,14 @@
+let a = 10;
+let b = 20;
+let c = 40;
+
+var soma = a + b;
+
+if (soma > c){
+    console.log("A soma " + soma +"\nÉ maior que " + c)
+}
+
+else{
+    console.log("A soma " + soma + "\nNão é maior que " + c);
+}
+------------------------------------------------------------
