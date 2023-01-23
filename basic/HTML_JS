@@ -1,0 +1,29 @@
+----------------------------------------------------------------------
+-- > JS
+
+let idade = Number(prompt('Digite a sua idade: '))
+let job = String(prompt('Digite seu job: '))
+
+    if (job == "programador" && idade == 21)
+        alert ("Sou Programador e tenho 21 anos")
+    if (job == "programador" && idade > 21)
+        alert ("Sou maior de 21 e sou programador")
+    if (job == "programador" && idade < 21)
+        alert ("Não sou maior de 21 e sou programador")
+    if (job != "programador" && idade > 21)
+        alert ("Não sou Programador e tenho mais de 21 anos")
+    if (job != "programador" && idade < 21)
+        alert ("Não sou Programador e tenho menos de 21 anos") 
+-----------------------------------------------------------------
+-- > HTML
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <script src="teste.js">
+        </script>
+    </body>
+    </html>
