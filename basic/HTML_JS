@@ -15,6 +15,19 @@ let job = String(prompt('Digite seu job: '))
     if (job != "programador" && idade < 21)
         alert ("Não sou Programador e tenho menos de 21 anos") 
 -----------------------------------------------------------------
+-- > JS
+
+let nome1 = String(prompt("Qual seu nome? "))
+let sobrenome1 = String(prompt("Qual é o seu sobrenome?"))
+let ano_nasc1 = Number(prompt("Qual o ano que vocẽ nasceu?"))
+
+var usr = {
+    nome:nome1,
+    sobrenome:sobrenome1,
+    ano:ano_nasc1
+};
+
+-----------------------------------------------------------------
 -- > HTML
 
 <!DOCTYPE html>
