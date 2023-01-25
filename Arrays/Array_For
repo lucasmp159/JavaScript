@@ -1,0 +1,8 @@
+var array = []
+
+for (i = 0; i <= 4; i++){
+    let q = String(prompt('Qual é sua bebida preferida?'))
+    array.push(q)
+}
+
+confirm(array)
