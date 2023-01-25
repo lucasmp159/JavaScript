@@ -1,0 +1,11 @@
+var array = ['Açucar','Sabonete','Detergente']
+
+for (i = 0; i <= 1; i++){
+    let q = String(prompt('Quais produtos deseja adicionar?'))
+    array.push(q)
+}
+
+array.pop(array[4])
+array[0] = 'Sabão'
+
+confirm(array)
