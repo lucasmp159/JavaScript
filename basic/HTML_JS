@@ -36,7 +36,7 @@ var usr = {
         <title>JS</title>
     </head>
     <body>
-        <script src="teste.js">
+        <script src="teste.js">  // CTRL + SPACE busca os paths no diretorio.
         </script>
     </body>
     </html>
