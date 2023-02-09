@@ -1,4 +1,4 @@
-/*
+
 var arr = [10,15,17,22,9,4]
 let count = 0
 for (x in arr){
@@ -8,12 +8,12 @@ for (x in arr){
 }
 console.log(arr)
 console.log('A quantidade de números pares é ' + count)
-*/
+
 
 var notas = [5.5, 6, 4.3, 7, 3.2, 8.2]
 
 for (nota in notas){
-    if (nota < 6){
+    if (notas[nota] < 6){
         notas[nota] += 1
     }
 }
