@@ -10,3 +10,16 @@ function media (a, b, c){
 }
 
 media(5,7,8)
+----------------------------------------------------
+----------------------------------------------------
+
+function media(a, b, c){
+    let notas = [a, b, c]
+    let med = (a+b+c)/(notas.length)
+    console.log(`Nota 1: ${a}\nNota 2: ${b}\nNota 3: ${c}`)
+    let segundoitem = notas[1]/2
+    console.log(`Segundo item da lista dividido por 2: ${segundoitem}`)
+    return med.toFixed(2)
+}
+
+console.log('Media: ' + media(6,6,5))
