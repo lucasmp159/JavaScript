@@ -1,0 +1,7 @@
+function aluno(nome, idade, curso){
+    arr = [nome, idade, curso]
+    console.log(`Nome: ${arr[0]}\nIdade: ${arr[1]}\nCurso: ${arr[2]}`) // Template String
+    return arr;
+}
+
+console.log(aluno('Lucas', 20, 'Javascript'))
