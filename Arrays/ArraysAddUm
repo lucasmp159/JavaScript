@@ -1,8 +1,7 @@
-
-var arr = [10,15,17,22,9,4]
+var arr = [10,15,17,22,9,4,2,12,16]
 let count = 0
 for (x in arr){
-    if (x % 2 == 0){
+    if (arr[x] % 2 == 0){
         count += 1
     }
 }
