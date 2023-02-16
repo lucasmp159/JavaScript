@@ -1,3 +1,18 @@
+function calcnota(p, f){
+    let parcial = p * 0.4
+    let final = f * 0.6
+    let nota_final = parcial + final
+    console.log('Nota Final: ' + nota_final.toFixed(1))
+    if (nota_final >= 5){
+        console.log('APROVADO')
+    } else {
+        console.log('REPROVADO')
+    }
+}
+
+console.log(calcnota(3,7))
+------------------------------------------------------------
+------------------------------------------------------------
 // Faça um algoritmo que leia um número
 // e informe se ele é par ou ímpar
 
