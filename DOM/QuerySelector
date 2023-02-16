@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-08">
+    </head>
+    <body>
+        <div>
+            <h1 id="Rice">Main title</h1>
+            <p>Text</p>
+        </div>
+        <div>
+            <h2>List with what to do</h2>
+            <ul>
+                <li>Thing 1</li>
+                <li>Thing 2</li>
+                <li>Thing 3</li>
+            </ul>
+        </div>
+        <hr>
+        <script>
+            console.log(document.getElementsByTagName('h1'))
+            const li = document.querySelector('ul');
+            console.log(li.innerText);
+
+            console.log(document.getElementById('Rice'))
+        </script>
+    </body>
+</html>
