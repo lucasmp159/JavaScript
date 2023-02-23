@@ -29,3 +29,25 @@
 </html>
 -----------------------------------------------------------------
 -----------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <button id="btn">Clicar</button>
+    <script>
+       function botaoClicado() {
+        console.log("clicou");
+       }
+
+       var meuBotao = document.getElementById("btn");
+       meuBotao.addEventListener("click", botaoClicado);
+    </script>
+</body>
+</html>
+-----------------------------------------------------------------
+-----------------------------------------------------------------
