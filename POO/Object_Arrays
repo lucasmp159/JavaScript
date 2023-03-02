@@ -1,0 +1,34 @@
+var cidade = {
+    nome:"Fortaleza",
+    pib:632832837,
+    pop:2000000,
+    Pibpercapta: function(){
+        return this.pib / this.pop
+    }
+};
+
+console.log('Nome: ' + cidade['nome'])
+console.log('PIB: ' + cidade['pib'])
+console.log('PIB_per_cap: ' + cidade['Pibpercapta']().toFixed(2));
+
+var pessoa = {
+    nome: "Cebolinha",
+    enreco: {
+        rua: "Rua da paz"
+    }
+}
+
+var atletas = [
+    {nome: 'Julios', esporte: 'Futebol'},
+    {nome: 'Lucas', esporte: 'Natação'},
+    {nome: 'Juliana', esporte: 'Voley'}
+]
+
+console.log(atletas[0],atletas[1],atletas[2])
+console.log(atletas[0].esporte,atletas[1].esporte,atletas[2].esporte)
+const Obj = atletas
+console.log(Object.keys(Obj))
+const Obj1 = {a:1, b:2, c:3, d:4}
+console.log(Object.keys(Obj1))
+console.log(Object.values(Obj1))
+
