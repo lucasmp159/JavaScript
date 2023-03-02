@@ -1,0 +1,46 @@
+<!-- HTML -->
+<form id="form-atleta">
+    <label for="nome-atleta">Nome do atleta:</label>
+    <input type="text" id="nome-atleta" name="nome-atleta">
+    <br>
+    <label for="esporte-atleta">Esporte praticado:</label>
+    <input type="text" id="esporte-atleta" name="esporte-atleta">
+    <br>
+    <button type="submit">Adicionar atleta</button>
+  </form>
+  
+  <ul id="lista-atletas"></ul>
+  
+  <!-- JS -->
+
+  <script>
+    const atletas = [
+      { nome: "João", esporte: "futebol" },
+      { nome: "Maria", esporte: "tênis" },
+      { nome: "Pedro", esporte: "basquete" },
+    ];
+  
+    const listaAtletas = document.getElementById("lista-atletas");
+  
+    function mostrarAtletas() {
+      let html = "";
+      for (let atleta of atletas) {
+        html += `<li>${atleta.nome} - ${atleta.esporte}</li>`;
+      }
+      listaAtletas.innerHTML = html;
+    }
+  
+    function adicionarAtleta(event) {
+      event.preventDefault();
+      const nome = document.getElementById("nome-atleta").value;
+      const esporte = document.getElementById("esporte-atleta").value;
+      const novoAtleta = { nome, esporte };
+      atletas.push(novoAtleta);
+      mostrarAtletas();
+    }
+  
+    document.getElementById("form-atleta").addEventListener("submit", adicionarAtleta);
+  
+    mostrarAtletas();
+  </script>
+  
