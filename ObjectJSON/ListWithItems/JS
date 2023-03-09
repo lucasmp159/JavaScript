@@ -1,0 +1,8 @@
+      <script>
+        const item = document.querySelector('#item')
+        arrayitem = []
+        for (i=0; i < item.length; i++)
+            arrayitem += item
+        console.log(item.innerHTML)
+        console.log(arrayitem.innerHTML)
+      </script>
