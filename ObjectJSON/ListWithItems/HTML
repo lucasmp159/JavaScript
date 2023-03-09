@@ -1,0 +1,70 @@
+<table border="1">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Categoria</th>
+        <th>Preço</th>
+        <th>Preço com Desconto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id = 'item'>Smartphone Samsung Galaxy S21</td>
+        <td id = 'categoria'>Eletrônicos</td>
+        <td id = 'preço'>R$ 4.499,00</td>
+        <td id = 'preçoDesconto'>R$ 3.999,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Notebook Dell Inspiron 15</td>
+        <td id = 'categoria'>Eletrônicos</td>
+        <td id = 'preço'>R$ 5.999,00</td>
+        <td id = 'preçoDesconto'>R$ 5.399,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Fone de Ouvido JBL T110BT</td>
+        <td id = 'categoria'>Eletrônicos</td>
+        <td id = 'preço'>R$ 179,00</td>
+        <td id = 'preçoDesconto'>R$ 149,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Relógio Casio G-Shock</td>
+        <td id = 'categoria'>Moda</td>
+        <td id = 'preço'>R$ 699,00</td>
+        <td id = 'preçoDesconto'>R$ 599,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Camiseta Nike Dry</td>
+        <td id = 'categoria'>Moda</td>
+        <td id = 'preço'>R$ 129,00</td>
+        <td id = 'preçoDesconto'>R$ 99,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Tênis Adidas Ultraboost 21</td>
+        <td id = 'categoria'>Moda</td>
+        <td id = 'preço'>R$ 999,00</td>
+        <td id = 'preçoDesconto'>R$ 899,00</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Chocolate Nestlé Classic</td>
+        <td id = 'categoria'>Doces</td>
+        <td id = 'preço'>R$ 4,99</td>
+        <td id = 'preçoDesconto'>R$ 3,99</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Barra de Cereal Nutry</td>
+        <td id = 'categoria'>Doces</td>
+        <td id = 'preço'>R$ 3,50</td>
+        <td id = 'preçoDesconto'>R$ 2,50</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Balde de pipoca com M&amp;M's</td>
+        <td id = 'categoria'>Doces</td>
+        <td id = 'preço'>R$ 29,90</td>
+        <td id = 'preçoDesconto'>R$ 24,90</td>
+      </tr>
+      <tr>
+        <td id = 'item'>Quebra-cabeça 1000 peças</td>
+        <td id = 'categoria'>Brinquedos</td>
+        <td id = 'preço'>R$ 69,00</td>
+        <td id = 'preçoDesconto'>R$ 59,00</td>
+      </tr>
