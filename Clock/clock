@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+<body>
+    <div id="clock">
+    </div>
+    <script>
+        function showTime() {
+            date = new Date() // função que coleta horário
+            h = date.getHours() // 0 - 23
+            m = date.getMinutes() // 0 - 59
+            s = date.getSeconds() // 0 - 59
+            
+            // 0 a esquerda para números abaixo de 10
+
+            time = h + ":" + m + ":" + s
+
+            document.getElementById('clock').innerText = time;
+
+            setTimeout(showTime, 1000)
+        }
+
+        showTime()
+    </script>
+</body>
+</html>
