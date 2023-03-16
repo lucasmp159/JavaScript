@@ -4,7 +4,20 @@
         <title>Document</title>
     </head>
 <body>
-    <div id="clock">
+    <style>
+        body{
+            background-color: black;
+        }
+        .style{
+            position:absolute;
+            top:50%;
+            left:50%;
+            font-size: 70px;
+            transform: translate(-50%,-50%);
+            color: SkyBlue;
+        }
+    </style>
+    <div id="clock" class="style">
     </div>
     <script>
         function showTime() {
