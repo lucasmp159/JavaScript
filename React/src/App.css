@@ -8,3 +8,8 @@
 .container:hover{
     width:300px;
 }
+
+.text {
+    color: white;
+    text-align: center;
+}
